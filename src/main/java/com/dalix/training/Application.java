@@ -31,7 +31,7 @@ public class Application {
     	System.out.println ("Starting Application");
 		Application app = new Application();
 		app.greet();
-		int count = app.countWords("I have four words");
+		int count = app.countWords("I have five words now");
 		System.out.println("Word Count: " + count);
     }
 }
